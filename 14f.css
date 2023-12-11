@@ -1,0 +1,78 @@
+body{
+  height: 3000px;
+  padding-left: 100px;
+}
+
+.channels{
+  background-color: rgb(40,43,48);
+  width:150px;
+  position: fixed; 
+  bottom: 0;
+  top: 0;
+  left: 48px;
+}
+
+.info-plus-style{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info{
+  margin-left: 15px;
+  color: white;
+  font-size: 13px;
+  font-family: 'Times New Roman';
+}
+
+.plus{
+  margin-right: 15px;
+  color: grey;
+  border: none;
+  background-color: rgb(40,43,48);
+  cursor: pointer;
+}
+
+.channels-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
+  margin-left: 16px;
+}
+
+
+.updates,
+.faq,
+.new-video{
+  color: grey;
+  cursor: pointer;
+}
+
+.members{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(30,33,36);
+  width: 50px;
+  justify-content: space-between;
+  align-items: center;
+  height: 115px;
+  margin-top: 11px;
+}
+
+.first,
+.second,
+.third{
+  width: 30px;
+  border-radius: 50px;
+}
+
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgb(30,33,36);
+}

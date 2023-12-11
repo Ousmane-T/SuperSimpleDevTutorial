@@ -1,0 +1,43 @@
+.bar-style{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(148, 89, 148);
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-style{
+  color: white;
+  width: 70px;
+  margin-left: 20px;
+}
+
+.download-style{
+  width: 90px;
+}
+
+.search-style{
+  flex: 1;
+  margin-left: 200px;
+  vertical-align: middle;
+}
+
+.search{
+  width: 700px;
+  border-radius: 20px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.download-button{
+  background-color: rgb(148, 89, 148);
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

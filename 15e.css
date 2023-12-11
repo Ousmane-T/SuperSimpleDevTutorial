@@ -1,0 +1,64 @@
+body{
+  height: 700px;
+}
+
+
+.clothing{
+  position: relative;
+  display: inline-block;
+}
+
+
+.sweatshirt{
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.discount{
+  background-color: black;
+  color: white;
+  width: 50px;
+  font-size: 12px;
+  padding: 5px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+/*
+  justify-content is for horizontal position
+  align-items is for vertical position
+*/
+.bottom-overlay{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.cart-button{
+  background-color: white;
+
+border-width: 1px;
+border-style: solid;
+border-color: black;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 15px;
+padding-right: 15px;
+cursor: pointer;
+}
+
+.cart-button:hover{
+  opacity: 0.5;
+}
+
+.cart-button:active{
+  opacity: 0.2;
+}
+
